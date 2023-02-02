@@ -5,11 +5,11 @@ pipeline
         {
                  stage('One') 
                  {
-                            steps {    echo 'Hi, welcome to pipeline demo...'  }
+                            steps {    echo 'Development Stage...'  }
                  }
                  stage('Two') 
                  {
-                           steps {  echo('Sample testing of Stage 2')   }
+                           steps {  echo('Sample testing of pipeline 3')   }
                  }
                  stage('Three') 
                  {
