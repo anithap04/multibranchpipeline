@@ -5,7 +5,7 @@ pipeline
         {
                  stage('One') 
                  {
-                            steps {    echo 'Hi, welcome to pipeline demo...’  }
+                            steps {    echo 'Hi, welcome to pipeline demo...'  }
                  }
                  stage('Two') 
                  {
@@ -13,7 +13,7 @@ pipeline
                  }
                  stage('Three') 
                  {
-                          steps {   echo 'Thanks for using Jenkins Pipeline’ }
+                          steps {   echo 'Thanks for using Jenkins Pipeline' }
                  }
        }
 }
