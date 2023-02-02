@@ -5,15 +5,11 @@ pipeline
         {
                  stage('One') 
                  {
-                            steps {    echo 'Hi, welcome to pipeline demo...'  }
+                            steps {    echo 'Hi, welcome to Staging View...'  }
                  }
                  stage('Two') 
                  {
-                           steps {  echo('Sample testing of Stage 2')   }
-                 }
-                 stage('Three') 
-                 {
-                          steps {   echo 'Thanks for using Jenkins Pipeline' }
+                           steps {  echo('Sample testing of Stage 3')   }
                  }
        }
 }
